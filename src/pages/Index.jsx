@@ -65,6 +65,25 @@ const Index = () => {
             </ul>
           </CardContent>
         </Card>
+
+        <Card className="mt-8">
+          <CardHeader>
+            <CardTitle>Cat Behavior</CardTitle>
+            <CardDescription>Understanding feline actions and instincts</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Kneading: Often called "making biscuits," this behavior is a sign of contentment and comfort.</li>
+              <li>Scratching: Natural behavior for claw maintenance and territory marking.</li>
+              <li>Hiding: Cats seek out small, enclosed spaces when stressed or for safety.</li>
+              <li>Grooming: Beyond cleanliness, excessive grooming can indicate stress or medical issues.</li>
+              <li>Hunting: Even well-fed cats may exhibit hunting behaviors with toys or small prey.</li>
+              <li>Sleeping patterns: Cats are crepuscular, most active during dawn and dusk.</li>
+              <li>Social bonding: Cats can form strong bonds with humans and other pets.</li>
+              <li>Play behavior: Important for exercise, mental stimulation, and bonding.</li>
+            </ul>
+          </CardContent>
+        </Card>
       </div>
     </div>
   );
