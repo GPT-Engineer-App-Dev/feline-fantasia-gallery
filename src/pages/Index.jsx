@@ -1,4 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -6,6 +7,9 @@ const Index = () => {
       <h1 className="text-4xl font-bold mb-6 text-center">All About Cats</h1>
       
       <div className="max-w-4xl mx-auto">
+        <Link to="/about" className="inline-block mb-8 text-blue-600 hover:text-blue-800 underline">
+          Learn more about us
+        </Link>
         <img 
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg" 
           alt="Cute cat" 
