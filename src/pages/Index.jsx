@@ -240,6 +240,16 @@ const CatQuoteGenerator = () => {
     "A cat will do what it wants when it wants, and there's not a thing you can do about it. - Frank Perkins",
     "The way to get on with a cat is to treat it as an equal – or even better, as the superior it knows itself to be. - Elizabeth Peters",
     "If cats could talk, they wouldn't. - Nan Porter",
+    "Cats are like music. It's foolish to try to explain their worth to those who don't appreciate them. - Anonymous",
+    "A home without a cat is just a house. - Anonymous",
+    "Cats choose us; we don't own them. - Kristin Cast",
+    "Cats are the ultimate narcissists. You can tell this because of all the time they spend on personal grooming. - Anonymous",
+    "Dogs have owners, cats have staff. - Anonymous",
+    "Cats know how to obtain food without labor, shelter without confinement, and love without penalties. - W. L. George",
+    "A cat's purr is more healing than any drug in the world. - Suzy Becker",
+    "The ideal of calm exists in a sitting cat. - Jules Renard",
+    "Cats are kindly masters, just so long as you remember your place. - Paul Gray",
+    "A cat is a puzzle for which there is no solution. - Hazel Nicholson",
   ];
 
   const generateQuote = () => {
