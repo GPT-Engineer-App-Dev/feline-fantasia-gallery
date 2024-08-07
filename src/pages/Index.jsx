@@ -272,6 +272,11 @@ const CatMythsAndFacts = () => {
     { myth: "Cats can see in complete darkness", fact: "Cats need some light to see, but they can see in much lower light levels than humans." },
     { myth: "Cats are nocturnal", fact: "Cats are actually crepuscular, meaning they're most active at dawn and dusk." },
     { myth: "Black cats are bad luck", fact: "This is just a superstition. Black cats are just as loving and wonderful as cats of any other color." },
+    { myth: "Cats hate water", fact: "While many cats dislike water, some breeds like the Turkish Van actually enjoy swimming." },
+    { myth: "Cats can't be trained", fact: "Cats can be trained using positive reinforcement, though their independent nature may make it more challenging than with dogs." },
+    { myth: "Purring always means a cat is happy", fact: "Cats also purr when they're in pain, stressed, or even giving birth. It's a self-soothing mechanism." },
+    { myth: "Cats and dogs are natural enemies", fact: "Many cats and dogs can live together harmoniously if introduced properly and at a young age." },
+    { myth: "Indoor cats don't need vaccinations", fact: "Indoor cats still need vaccinations to protect against diseases they might contract from humans or other pets." },
   ];
 
   return (
