@@ -38,6 +38,11 @@ const Index = () => {
               <li>Maine Coon: One of the largest domesticated cat breeds with a distinctive physical appearance.</li>
               <li>Persian: Recognized for their long fur and flat faces.</li>
               <li>Bengal: A hybrid breed with a wild appearance resembling leopards.</li>
+              <li>British Shorthair: Famous for their round faces and dense, plush coats.</li>
+              <li>Scottish Fold: Characterized by their unique folded ears and owl-like appearance.</li>
+              <li>Sphynx: A hairless breed known for their wrinkled skin and extroverted personality.</li>
+              <li>Ragdoll: Large, semi-longhaired cats known for their docile and affectionate nature.</li>
+              <li>Russian Blue: Elegant cats with a silvery-blue coat and green eyes.</li>
             </ul>
           </CardContent>
         </Card>
