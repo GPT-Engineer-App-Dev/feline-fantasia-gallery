@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { Separator } from "@/components/ui/separator";
 
 const Index = () => {
   const [position, setPosition] = useState({ x: 50, y: 50 });
@@ -196,7 +197,74 @@ const Index = () => {
             </ul>
           </CardContent>
         </Card>
+
+        <Card className="mt-8">
+          <CardHeader>
+            <CardTitle>Cat Quote Generator</CardTitle>
+            <CardDescription>Get your daily dose of cat wisdom</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <CatQuoteGenerator />
+          </CardContent>
+        </Card>
+
+        <Card className="mt-8">
+          <CardHeader>
+            <CardTitle>Cat Myths and Facts</CardTitle>
+            <CardDescription>Separating feline fiction from reality</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <CatMythsAndFacts />
+          </CardContent>
+        </Card>
       </div>
+    </div>
+  );
+};
+
+const CatQuoteGenerator = () => {
+  const [quote, setQuote] = useState("");
+  const quotes = [
+    "Time spent with cats is never wasted. - Sigmund Freud",
+    "Cats are connoisseurs of comfort. - James Herriot",
+    "I have studied many philosophers and many cats. The wisdom of cats is infinitely superior. - Hippolyte Taine",
+    "There are two means of refuge from the miseries of life: music and cats. - Albert Schweitzer",
+    "The smallest feline is a masterpiece. - Leonardo da Vinci",
+    "Cats have it all - admiration, an endless sleep, and company only when they want it. - Rod McKuen",
+    "A cat has absolute emotional honesty: human beings, for one reason or another, may hide their feelings, but a cat does not. - Ernest Hemingway",
+  ];
+
+  const generateQuote = () => {
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    setQuote(quotes[randomIndex]);
+  };
+
+  return (
+    <div className="text-center">
+      <p className="mb-4 italic">{quote || "Click the button to get a cat quote!"}</p>
+      <Button onClick={generateQuote}>Generate Quote</Button>
+    </div>
+  );
+};
+
+const CatMythsAndFacts = () => {
+  const mythsAndFacts = [
+    { myth: "Cats always land on their feet", fact: "While cats have an impressive righting reflex, they don't always land on their feet, especially from short heights." },
+    { myth: "Milk is good for cats", fact: "Most adult cats are lactose intolerant and shouldn't drink milk." },
+    { myth: "Cats can see in complete darkness", fact: "Cats need some light to see, but they can see in much lower light levels than humans." },
+    { myth: "Cats are nocturnal", fact: "Cats are actually crepuscular, meaning they're most active at dawn and dusk." },
+    { myth: "Black cats are bad luck", fact: "This is just a superstition. Black cats are just as loving and wonderful as cats of any other color." },
+  ];
+
+  return (
+    <div>
+      {mythsAndFacts.map((item, index) => (
+        <div key={index} className="mb-4">
+          <p className="font-semibold">Myth: {item.myth}</p>
+          <p>Fact: {item.fact}</p>
+          {index < mythsAndFacts.length - 1 && <Separator className="my-2" />}
+        </div>
+      ))}
     </div>
   );
 };
