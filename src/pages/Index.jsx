@@ -10,28 +10,11 @@ const Index = () => {
         <Link to="/about" className="inline-block mb-8 text-blue-600 hover:text-blue-800 underline">
           Learn more about us
         </Link>
-        <div className="grid grid-cols-2 gap-4 mb-8">
-          <img 
-            src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-            alt="Cute orange cat" 
-            className="mx-auto object-cover w-full h-[200px] rounded-lg"
-          />
-          <img 
-            src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-            alt="Playful kitten" 
-            className="mx-auto object-cover w-full h-[200px] rounded-lg"
-          />
-          <img 
-            src="https://images.unsplash.com/photo-1495360010541-f48722b34f7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-            alt="Curious cat" 
-            className="mx-auto object-cover w-full h-[200px] rounded-lg"
-          />
-          <img 
-            src="/placeholder.svg" 
-            alt="Cat placeholder" 
-            className="mx-auto object-cover w-full h-[200px] rounded-lg bg-gray-300"
-          />
-        </div>
+        <img 
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg" 
+          alt="Cute cat" 
+          className="mx-auto object-cover w-full h-[400px] rounded-lg mb-8"
+        />
         
         <Card className="mb-8">
           <CardHeader>
@@ -112,27 +95,6 @@ const Index = () => {
               <li>Sleeping patterns: Cats are crepuscular, most active during dawn and dusk.</li>
               <li>Social bonding: Cats can form strong bonds with humans and other pets.</li>
               <li>Play behavior: Important for exercise, mental stimulation, and bonding.</li>
-            </ul>
-          </CardContent>
-        </Card>
-
-        <Card className="mt-8">
-          <CardHeader>
-            <CardTitle>Cat Care Tips</CardTitle>
-            <CardDescription>Essential advice for cat owners</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Provide a balanced diet appropriate for your cat's age and health status.</li>
-              <li>Ensure fresh water is always available.</li>
-              <li>Regular veterinary check-ups are crucial for maintaining your cat's health.</li>
-              <li>Spay or neuter your cat to prevent unwanted litters and health issues.</li>
-              <li>Groom your cat regularly, especially long-haired breeds.</li>
-              <li>Provide a clean litter box and scoop it daily.</li>
-              <li>Offer scratching posts to protect your furniture and maintain claw health.</li>
-              <li>Engage in play sessions to keep your cat mentally and physically stimulated.</li>
-              <li>Create a safe indoor environment with hiding spots and elevated resting areas.</li>
-              <li>Use positive reinforcement for training and behavior modification.</li>
             </ul>
           </CardContent>
         </Card>
