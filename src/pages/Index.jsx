@@ -60,9 +60,9 @@ const Index = () => {
             {gameActive && (
               <div className="relative h-[300px] border border-gray-300 overflow-hidden">
                 <img
-                  src="https://placekitten.com/100/100"
+                  src="/placeholder.svg"
                   alt="Cat to catch"
-                  className="absolute cursor-pointer transition-all duration-300 ease-in-out"
+                  className="absolute cursor-pointer transition-all duration-300 ease-in-out w-[100px] h-[100px]"
                   style={{ left: `${position.x}px`, top: `${position.y}px` }}
                   onClick={handleCatClick}
                 />
