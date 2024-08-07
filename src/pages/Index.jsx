@@ -232,6 +232,14 @@ const CatQuoteGenerator = () => {
     "The smallest feline is a masterpiece. - Leonardo da Vinci",
     "Cats have it all - admiration, an endless sleep, and company only when they want it. - Rod McKuen",
     "A cat has absolute emotional honesty: human beings, for one reason or another, may hide their feelings, but a cat does not. - Ernest Hemingway",
+    "What greater gift than the love of a cat? - Charles Dickens",
+    "Cats are intended to teach us that not everything in nature has a purpose. - Garrison Keillor",
+    "In ancient times cats were worshipped as gods; they have not forgotten this. - Terry Pratchett",
+    "I love cats because I enjoy my home; and little by little, they become its visible soul. - Jean Cocteau",
+    "Cats rule the world. - Jim Davis",
+    "A cat will do what it wants when it wants, and there's not a thing you can do about it. - Frank Perkins",
+    "The way to get on with a cat is to treat it as an equal – or even better, as the superior it knows itself to be. - Elizabeth Peters",
+    "If cats could talk, they wouldn't. - Nan Porter",
   ];
 
   const generateQuote = () => {
