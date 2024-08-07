@@ -23,6 +23,12 @@ const Index = () => {
               <li>A group of cats is called a "clowder".</li>
               <li>Cats spend 70% of their lives sleeping.</li>
               <li>A cat's hearing is much more sensitive than humans and dogs.</li>
+              <li>Cats have a third eyelid called the "nictitating membrane" that helps protect their eyes.</li>
+              <li>The first cat in space was a French cat named Felicette in 1963.</li>
+              <li>Cats can't taste sweetness due to a genetic mutation.</li>
+              <li>A cat's nose print is unique, like a human's fingerprint.</li>
+              <li>Cats have over 20 vocalizations, including the meow, purr, chirp, and trill.</li>
+              <li>The oldest known pet cat was found in a 9,500-year-old grave on the Mediterranean island of Cyprus.</li>
             </ul>
           </CardContent>
         </Card>
