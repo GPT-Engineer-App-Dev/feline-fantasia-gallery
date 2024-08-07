@@ -29,6 +29,16 @@ const Index = () => {
               <li>A cat's nose print is unique, like a human's fingerprint.</li>
               <li>Cats have over 20 vocalizations, including the meow, purr, chirp, and trill.</li>
               <li>The oldest known pet cat was found in a 9,500-year-old grave on the Mediterranean island of Cyprus.</li>
+              <li>Cats have 230 bones, while humans only have 206.</li>
+              <li>The average lifespan of an indoor cat is 13 to 17 years.</li>
+              <li>A cat's sense of smell is 14 times stronger than a human's.</li>
+              <li>Cats can jump up to six times their length.</li>
+              <li>The first cat show was held in 1871 at the Crystal Palace in London.</li>
+              <li>A cat's brain is 90% similar to a human's — more similar than to a dog's.</li>
+              <li>Cats walk like camels and giraffes: They move both of their right feet first, then move both of their left feet.</li>
+              <li>Male cats are typically left-pawed, while female cats are more likely to be right-pawed.</li>
+              <li>A cat's purr vibrates at a frequency of 25 to 150 hertz, which is the same frequency at which muscles and bones repair themselves.</li>
+              <li>The world's richest cat, Blackie, inherited £7 million from his owner in 1988.</li>
             </ul>
           </CardContent>
         </Card>
