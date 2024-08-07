@@ -1,7 +1,38 @@
+import { useState, useEffect } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
 const Index = () => {
+  const [position, setPosition] = useState({ x: 50, y: 50 });
+  const [score, setScore] = useState(0);
+  const [gameActive, setGameActive] = useState(false);
+
+  useEffect(() => {
+    if (gameActive) {
+      const interval = setInterval(() => {
+        setPosition({
+          x: Math.random() * (window.innerWidth - 100),
+          y: Math.random() * (window.innerHeight - 100),
+        });
+      }, 1000);
+      return () => clearInterval(interval);
+    }
+  }, [gameActive]);
+
+  const handleCatClick = () => {
+    setScore(score + 1);
+  };
+
+  const startGame = () => {
+    setGameActive(true);
+    setScore(0);
+  };
+
+  const stopGame = () => {
+    setGameActive(false);
+  };
+
   return (
     <div className="min-h-screen p-8 bg-gray-100">
       <h1 className="text-4xl font-bold mb-6 text-center">All About Cats</h1>
@@ -10,6 +41,35 @@ const Index = () => {
         <Link to="/about" className="inline-block mb-8 text-blue-600 hover:text-blue-800 underline">
           Learn more about us
         </Link>
+
+        <Card className="mb-8">
+          <CardHeader>
+            <CardTitle>Cat Catcher Game</CardTitle>
+            <CardDescription>Click the cat to score points!</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <div className="text-center mb-4">
+              <p className="text-xl font-bold">Score: {score}</p>
+              {!gameActive && (
+                <Button onClick={startGame} className="mr-2">Start Game</Button>
+              )}
+              {gameActive && (
+                <Button onClick={stopGame} variant="destructive">Stop Game</Button>
+              )}
+            </div>
+            {gameActive && (
+              <div className="relative h-[300px] border border-gray-300 overflow-hidden">
+                <img
+                  src="https://placekitten.com/100/100"
+                  alt="Cat to catch"
+                  className="absolute cursor-pointer transition-all duration-300 ease-in-out"
+                  style={{ left: `${position.x}px`, top: `${position.y}px` }}
+                  onClick={handleCatClick}
+                />
+              </div>
+            )}
+          </CardContent>
+        </Card>
         <div className="grid grid-cols-2 gap-4 mb-8">
           <img 
             src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
