@@ -65,6 +65,25 @@ const Index = () => {
             </ul>
           </CardContent>
         </Card>
+
+        <Card className="mt-8">
+          <CardHeader>
+            <CardTitle>Cat Communication</CardTitle>
+            <CardDescription>How cats express themselves</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Meowing: Primarily used to communicate with humans, not other cats.</li>
+              <li>Purring: Can indicate contentment, but also used when in pain or stressed.</li>
+              <li>Hissing and growling: Clear signs of fear, anger, or aggression.</li>
+              <li>Chirping or trilling: Often used as a greeting or to get attention.</li>
+              <li>Yowling: Can signal distress, territorial disputes, or mating behaviors.</li>
+              <li>Body language: Tail position, ear orientation, and posture all convey different messages.</li>
+              <li>Scent marking: Rubbing against objects or people to leave their scent.</li>
+              <li>Facial expressions: Subtle changes in whisker position and eye shape can indicate mood.</li>
+            </ul>
+          </CardContent>
+        </Card>
       </div>
     </div>
   );
