@@ -27,7 +27,7 @@ const Index = () => {
           </CardContent>
         </Card>
         
-        <Card className="mb-8">
+        <Card>
           <CardHeader>
             <CardTitle>Popular Cat Breeds</CardTitle>
             <CardDescription>Some well-known feline varieties</CardDescription>
@@ -38,49 +38,6 @@ const Index = () => {
               <li>Maine Coon: One of the largest domesticated cat breeds with a distinctive physical appearance.</li>
               <li>Persian: Recognized for their long fur and flat faces.</li>
               <li>Bengal: A hybrid breed with a wild appearance resembling leopards.</li>
-              <li>British Shorthair: Famous for their round faces and dense, plush coats.</li>
-              <li>Scottish Fold: Characterized by their unique folded ears and owl-like appearance.</li>
-              <li>Sphynx: A hairless breed known for their wrinkled skin and extroverted personality.</li>
-              <li>Ragdoll: Large, semi-longhaired cats known for their docile and affectionate nature.</li>
-              <li>Russian Blue: Elegant cats with a silvery-blue coat and green eyes.</li>
-            </ul>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader>
-            <CardTitle>Understanding Cat Behavior</CardTitle>
-            <CardDescription>Common behaviors and what they mean</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Purring: Usually indicates contentment, but can also signal stress or pain in some situations.</li>
-              <li>Kneading: Often called "making biscuits," this behavior is a sign of comfort and contentment.</li>
-              <li>Tail positioning: An upright tail with a slight curve at the end typically means a happy, friendly cat.</li>
-              <li>Slow blinking: Known as a "cat kiss," this is a sign of trust and affection.</li>
-              <li>Bringing "gifts": Presenting dead animals is a natural hunting instinct and a way to show affection.</li>
-              <li>Scratching furniture: This marks territory and helps shed old claw sheaths.</li>
-              <li>Hiding: Can be a sign of stress, illness, or simply a desire for quiet time.</li>
-              <li>Chattering at birds: This jaw-quivering behavior might be a mix of excitement and frustration.</li>
-            </ul>
-          </CardContent>
-        </Card>
-
-        <Card className="mt-8">
-          <CardHeader>
-            <CardTitle>Cat Communication</CardTitle>
-            <CardDescription>How cats express themselves</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Meowing: Primarily used to communicate with humans, not other cats.</li>
-              <li>Purring: Can indicate contentment, but also used when in pain or stressed.</li>
-              <li>Hissing and growling: Clear signs of fear, anger, or aggression.</li>
-              <li>Chirping or trilling: Often used as a greeting or to get attention.</li>
-              <li>Yowling: Can signal distress, territorial disputes, or mating behaviors.</li>
-              <li>Body language: Tail position, ear orientation, and posture all convey different messages.</li>
-              <li>Scent marking: Rubbing against objects or people to leave their scent.</li>
-              <li>Facial expressions: Subtle changes in whisker position and eye shape can indicate mood.</li>
             </ul>
           </CardContent>
         </Card>
